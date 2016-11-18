@@ -1,0 +1,64 @@
+package com.lianjiu.activity.dao.impl;
+ 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.lianjiu.activity.dao.RedisClientI;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+ 
+
+
+
+public class SingleRedisImpl implements RedisClientI {
+
+	@Autowired
+	private JedisPool jedisPool;
+
+	public String set(String key, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String get(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public long hset(String hkey, String key, String value) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public String hget(String hkey, String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public long incr(String key) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public long expire(String key, int second) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public long ttl(String key) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public long del(String key) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public long hdel(String hkey, String key) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

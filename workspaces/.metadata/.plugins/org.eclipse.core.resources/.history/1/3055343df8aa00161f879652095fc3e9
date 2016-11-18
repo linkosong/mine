@@ -1,0 +1,19 @@
+package com.lianjiu.activity.dao.impl;
+ 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.lianjiu.activity.dao.RedisClientI;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+ 
+
+
+
+public class SingleRedisImpl implements RedisClientI {
+
+	@Autowired
+	private JedisPool jedisPool;
+	
+	
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.lianjiu.portal.dao.RedisClientI"/>
+<fullyQualifiedTypeName name="com.lianjiu.portal.pojo.UserLocalhost"/>
+<fullyQualifiedTypeName name="com.lianjiu.portal.mapper.UserWeixinInfoMapper"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.lianjiu.activity.dao.RedisClientI"/>
+</qualifiedTypeNameHistroy>

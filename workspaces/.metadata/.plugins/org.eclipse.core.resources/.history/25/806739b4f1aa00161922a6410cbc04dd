@@ -1,0 +1,8 @@
+package com.lianjiu.activity.maper;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.lianjiu.activity.maper
+	}
+}
+

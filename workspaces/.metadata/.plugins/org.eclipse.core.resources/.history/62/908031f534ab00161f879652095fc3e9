@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/activity/dao/RedisClientI.java=UTF-8
+encoding//src/main/java/com/lianjiu/activity/dao/impl/ClusterRedisImpl.java=UTF-8
+encoding//src/main/java/com/lianjiu/activity/dao/impl/SingleRedisImpl.java=UTF-8
+encoding//src/main/webapp/index.html=UTF-8
